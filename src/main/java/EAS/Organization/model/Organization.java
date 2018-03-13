@@ -1,14 +1,24 @@
 package EAS.Organization.model;
 
+import EAS.Ofice.model.Office;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "Organization")
 public class Organization {
+    public Organization(){
+
+    }
+
+    public Organization (Integer id){}
+
+
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         @Column(name = "id")
-        private long id;
+        private Integer id;
 
         @Basic(optional = false)
         @Column(name = "nameOr")
@@ -21,8 +31,6 @@ public class Organization {
         @Basic(optional = false)
         @Column(name = "inn")
         private int inn;
-
-
 
         @Basic(optional = false)
         @Column(name = "kpp")
@@ -38,16 +46,16 @@ public class Organization {
 
         @Basic(optional = false)
         @Column(name = "isActive")
-        private int isActive;
+        private boolean isActive;
 
-//        @OneToMany(fetch = FetchType.LAZY, mappedBy = "organization", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-//        private List<Office> offices;
+        @OneToMany(fetch = FetchType.LAZY, mappedBy = "organization", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+        private List<Office> offices;
 
-        public long getId() {
+        public Integer getId() {
             return id;
         }
 
-        public void setId(long id) {
+        public void setId(Integer id) {
             this.id = id;
         }
 
@@ -99,11 +107,11 @@ public class Organization {
             this.phone = phone;
         }
 
-        public int getIsActive() {
+        public boolean getIsActive() {
             return isActive;
         }
 
-        public void setIsActive(int isActive) {
+        public void setIsActive(boolean isActive) {
             this.isActive = isActive;
         }
 

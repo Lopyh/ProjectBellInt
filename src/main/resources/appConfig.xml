@@ -13,6 +13,32 @@
 
     <context:component-scan base-package="EAS"></context:component-scan>
 
+    <!-- EntityManagerFactory -->
+    <bean id="emf" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="h2Source"/>
+        <!--Поставщик данных - hibernate-->
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+        </property>
+        <!--поиск сущностей в этом пакете-->
+        <property name="packagesToScan"
+                  value="EAS"/>
+        <!--детали конфигурации поставщика постоянства (hibernate) -->
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                    org.hibernate.dialect.H2Dialect
+                </prop>
+                <prop key="hibernate.max_fetch_depth">3</prop>
+                <prop key="hibernate.jdbc.fetch_size">50</prop>
+                <prop key="hibernate.jdbc.batch_size">10</prop>
+                <prop key="hibernate.show_sql">true</prop>
+            </props>
+        </property>
+    </bean>
+
+
+
 
 
     <jdbc:embedded-database id="h2Source" type="H2">
