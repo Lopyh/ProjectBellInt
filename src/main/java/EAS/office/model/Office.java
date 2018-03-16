@@ -1,7 +1,8 @@
-package EAS.Ofice.model;
+package EAS.office.model;
 
-import EAS.Organization.model.Organization;
-import EAS.User.model.Users;
+
+import EAS.organization.model.Organization;
+import EAS.user.model.Users;
 
 import javax.persistence.*;
 import java.util.List;
@@ -17,7 +18,7 @@ public class Office {
     @Id
     @GeneratedValue
     @Column(name = "id")
-    private long id;
+    private Integer id;
 
     @Basic(optional = false)
     @Column(name = "nameOf")
@@ -37,11 +38,11 @@ public class Office {
     private int isActive;
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "org_id")
     private Organization organization;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private List<Users> users;
 
 
@@ -49,7 +50,7 @@ public class Office {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -93,5 +94,24 @@ public class Office {
         this.organization = organization;
     }
 
+    public List<Users> getUsers() {
+        return users;
+    }
 
+    public void setUsers(List<Users> users) {
+        this.users = users;
+    }
+
+    @Override
+    public String toString() {
+        return "Office{" +
+                "id=" + id +
+                ", nameOf='" + nameOf + '\'' +
+                ", address='" + address + '\'' +
+                ", phone='" + phone + '\'' +
+                ", isActive=" + isActive +
+                ", organization=" + organization +
+                ", users=" + users +
+                '}';
+    }
 }

@@ -1,12 +1,21 @@
 package EAS;
 
-import EAS.Organization.DAO.OrganizationDAO;
+import EAS.hashCreator.HashSHA;
+import EAS.office.dao.OfficeDAO;
+import EAS.office.model.Office;
 
-import EAS.Organization.model.Organization;
+
+import EAS.organization.DAO.OrganizationDAO;
+import EAS.organization.model.Organization;
+import EAS.organization.service.OrgService;
+import EAS.organization.service.impl.OrgServiceImpl;
+import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.util.List;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 
 public class App {
@@ -17,10 +26,27 @@ public class App {
         Organization org = dao.getById(1);
         System.out.println(org);
 
-//        List<Organization> org1 = dao.all();
-//        for (Organization r: org
-//                ) {
-//            System.out.println(org);
-//        }
+        OfficeDAO daoOffice = application.getBean(OfficeDAO.class);
+        Office office = daoOffice.getById(2);
+        System.out.println(office.getId());
+
+        OrgService orgService = application.getBean(OrgService.class);
+
+        System.out.println(orgService.saveOrg("Жж","ц", 52, 34,"Промышленная 23", "785212", true));
+
+        System.out.println(orgService.getById(2));
+
+
+
+        System.out.println(HashSHA.getSHA256("SHA-256"));
+
+
+
+
+
+
+
+
+
     }
 }

@@ -1,24 +1,22 @@
-package EAS.Organization.DAO.impl;
+package EAS.organization.DAO.impl;
 
-import EAS.Organization.DAO.OrganizationDAO;
-import EAS.Organization.model.Organization;
+
+import EAS.organization.DAO.OrganizationDAO;
+import EAS.organization.model.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
 
 @Repository
 public class OrganizationDAOImpl implements OrganizationDAO {
-    @PersistenceContext
-    private EntityManager em;
 
-//    @Autowired
-//    OrganizationDAOImpl(EntityManager em){
-//        this.em = em;
-//    }
+    @PersistenceContext(type= PersistenceContextType.EXTENDED)
+    private EntityManager em;
 
     @Override
     public Organization getById(Integer Id) {
@@ -34,6 +32,16 @@ public class OrganizationDAOImpl implements OrganizationDAO {
     @Override
     public void save(Organization organization) {
         em.persist(organization);
+    }
+
+    @Override
+    public void remove(Organization organization) {
+        em.remove(organization);
+    }
+
+    @Override
+    public void update(Organization organization) {
+        em.merge(organization);
     }
 
 

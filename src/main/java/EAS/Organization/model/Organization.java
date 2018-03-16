@@ -1,6 +1,6 @@
-package EAS.Organization.model;
+package EAS.organization.model;
 
-import EAS.Ofice.model.Office;
+import EAS.office.model.Office;
 
 import javax.persistence.*;
 import java.util.List;
@@ -12,11 +12,17 @@ public class Organization {
 
     }
 
-    public Organization (Integer id){}
-
-
+    public Organization(String nameOr, String fullName, int inn, int kpp, String address, String phone, boolean isActive) {
+        this.nameOr = nameOr;
+        this.fullName = fullName;
+        this.inn = inn;
+        this.kpp = kpp;
+        this.address = address;
+        this.phone = phone;
+        this.isActive = isActive;
+    }
         @Id
-        @GeneratedValue(strategy = GenerationType.AUTO)
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
         @Column(name = "id")
         private Integer id;
 

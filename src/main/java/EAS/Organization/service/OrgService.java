@@ -1,11 +1,16 @@
-package EAS.Organization.service;
+package EAS.organization.service;
 
-import org.springframework.stereotype.Service;
 
-@Service
 public interface OrgService {
 
 
+
+    public String getById(Integer id);
+    public String delete(Integer id);
+    public String saveOrg(String nameOr, String fullName, int inn,
+                          int kpp, String address, String phone, boolean isActive);
+    public String update(String nameOr, String fullName, int inn,
+                         int kpp, String address, String phone, boolean isActive);
 
 
 }

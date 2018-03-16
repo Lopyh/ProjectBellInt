@@ -1,6 +1,6 @@
-package EAS.User.model;
+package EAS.user.model;
 
-import EAS.Ofice.model.Office;
+import EAS.office.model.Office;
 
 import javax.persistence.*;
 
@@ -61,9 +61,27 @@ public class Users {
     @Column(name = "is_identified")
     private Boolean isIdentified;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "office_id")
     private Office office;
 
 
+//    @Override
+//    public String toString() {
+//        return "Users{" +
+//                "id=" + id +
+//                ", firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                ", middleName='" + middleName + '\'' +
+//                ", positionUs='" + positionUs + '\'' +
+//                ", phone='" + phone + '\'' +
+//                ", docNumber=" + docNumber +
+//                ", docName='" + docName + '\'' +
+//                ", docDate='" + docDate + '\'' +
+//                ", sitizenshipName='" + sitizenshipName + '\'' +
+//                ", sitizenshipCode=" + sitizenshipCode +
+//                ", isIdentified=" + isIdentified +
+//                ", office=" + office +
+//                '}';
+//    }
 }
