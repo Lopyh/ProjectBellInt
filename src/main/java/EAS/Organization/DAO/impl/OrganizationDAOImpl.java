@@ -3,12 +3,16 @@ package EAS.organization.DAO.impl;
 
 import EAS.organization.DAO.OrganizationDAO;
 import EAS.organization.model.Organization;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
 import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.ParameterExpression;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 
@@ -42,6 +46,23 @@ public class OrganizationDAOImpl implements OrganizationDAO {
     @Override
     public void update(Organization organization) {
         em.merge(organization);
+    }
+
+    @Override
+    public List<Organization> list(String name, String inn, boolean isActive
+                                   ) {
+        CriteriaBuilder builder = em.getCriteriaBuilder();
+        CriteriaQuery<Organization> criteria = builder.createQuery(Organization.class);
+        Root<Organization> root = criteria.from(Organization.class);
+
+
+        CriteriaQuery<Organization> where = criteria.where(builder.and(
+                builder.like(root.<String>get("nameOr"), "%" + name + "%"),
+                builder.like(root.<String>get("inn"), "%" + inn + "%"),
+                builder.equal(root.<Boolean>get("isActive"), isActive))
+        );
+        return em.createQuery(criteria).getResultList();
+
     }
 
 

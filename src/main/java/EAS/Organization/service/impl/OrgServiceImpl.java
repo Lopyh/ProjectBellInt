@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 
 @Service
 public class OrgServiceImpl implements OrgService {
@@ -17,6 +19,12 @@ public class OrgServiceImpl implements OrgService {
     @Autowired
     private OrgServiceImpl(OrganizationDAO dao){
         this.dao = dao;
+    }
+
+    @Override
+    @Transactional
+    public List<Organization> list(String name,String inn, boolean isActive) {
+       return dao.list(name, inn, isActive);
     }
 
     @Override
@@ -38,14 +46,16 @@ public class OrgServiceImpl implements OrgService {
     }
 
     @Override
-    public String saveOrg(String nameOr, String fullName, int inn, int kpp, String address, String phone, boolean isActive) {
+    @Transactional
+    public String saveOrg(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
         Organization organization = new Organization(nameOr, fullName, inn, kpp, address, phone, isActive);
         dao.save(organization);
         return "Success";
     }
 
     @Override
-    public String update(String nameOr, String fullName, int inn, int kpp, String address, String phone, boolean isActive) {
+    @Transactional
+    public String update(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
        return "Success";
     }
 

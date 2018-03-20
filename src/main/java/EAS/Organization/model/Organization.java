@@ -12,7 +12,7 @@ public class Organization {
 
     }
 
-    public Organization(String nameOr, String fullName, int inn, int kpp, String address, String phone, boolean isActive) {
+    public Organization(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
         this.nameOr = nameOr;
         this.fullName = fullName;
         this.inn = inn;
@@ -36,11 +36,11 @@ public class Organization {
 
         @Basic(optional = false)
         @Column(name = "inn")
-        private int inn;
+        private String inn;
 
         @Basic(optional = false)
         @Column(name = "kpp")
-        private int kpp;
+        private Integer kpp;
 
         @Basic(optional = false)
         @Column(name = "address")
@@ -81,11 +81,11 @@ public class Organization {
             this.fullName = fullName;
         }
 
-        public int getInn() {
+        public String getInn() {
             return inn;
         }
 
-        public void setInn(int inn) {
+        public void setInn(String inn) {
             this.inn = inn;
         }
 

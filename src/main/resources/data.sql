@@ -1,18 +1,18 @@
-INSERT INTO Customers (login, password, nameCu)
+INSERT INTO Client (login, password, name)
 VALUES ('log', 'password','vasya322');
 
-INSERT INTO Customers (login, password, nameCu)
+INSERT INTO Client (login, password, name)
 VALUES ('loadsfg', 'password','vasya322',);
 
 
 INSERT INTO Organization (id, nameOr, fullName, inn, kpp, address, phone, isActive)
-VALUES (1, 'ОАО Рога', 'ОАО Рога', 1234, 456, 'Вилиса 21', '9676534', TRUE);
+VALUES (1, 'ОАО Рог', 'ОАО Рога', 1234, 456, 'Вилиса 21', '9676534', TRUE);
 
 INSERT INTO Organization (id, nameOr, fullName, inn, kpp, address, phone, isActive)
 VALUES (2, 'ОАО Рога', 'ОАО Копыта', 1234, 456, 'Вилиса 221', '9676534', TRUE);
 
 INSERT INTO Organization (id, nameOr, fullName, inn, kpp, address, phone, isActive)
-VALUES (3, 'ОАО Рога', 'ОАО Рога и Копыта', 1234, 456, 'Вилиса 21', '9676534', TRUE);
+VALUES (3, 'ОАО Рога', 'ОАО Рога и Копыта', 1234, 456, 'Вилиса 21', '9676534', FALSE );
 
 
 INSERT INTO Office (id, org_id, nameOf, address, phone, isActive)

@@ -19,7 +19,7 @@
         id            INTEGER  PRIMARY KEY AUTO_INCREMENT,
         nameOr        VARCHAR(50) NOT NULL,
         fullName      VARCHAR(150) NOT NULL,
-        inn           INTEGER  NOT NULL,
+        inn           VARCHAR(12) NOT NULL,
         kpp           INTEGER  NOT NULL,
         address       VARCHAR(200) NOT NULL,
         phone         VARCHAR(11) NOT NULL,

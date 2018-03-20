@@ -1,8 +1,8 @@
 
-        CREATE TABLE IF NOT EXISTS Customers (
+        CREATE TABLE IF NOT EXISTS Client (
         login             VARCHAR(10) NOT NULL,
         password          VARCHAR(10) NOT NULL,
-        nameCu            VARCHAR(10) NOT NULL,
+        name           VARCHAR(10) NOT NULL,
          );
 
          CREATE TABLE IF NOT EXISTS Countries(

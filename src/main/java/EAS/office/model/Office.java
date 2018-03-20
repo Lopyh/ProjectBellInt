@@ -15,8 +15,15 @@ public class Office {
 
     }
 
+    public Office(String nameOf, String address, String phone, boolean isActive){
+        this.nameOf = nameOf;
+        this.address = address;
+        this.phone = phone;
+        this.isActive = isActive;
+    }
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
@@ -35,14 +42,14 @@ public class Office {
 
     @Basic(optional = false)
     @Column(name = "isActive")
-    private int isActive;
+    private boolean isActive;
 
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "org_id")
     private Organization organization;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     private List<Users> users;
 
 
@@ -78,11 +85,11 @@ public class Office {
         this.phone = phone;
     }
 
-    public int getIsActive() {
+    public boolean getIsActive() {
         return isActive;
     }
 
-    public void setIsActive(int isActive) {
+    public void setIsActive(boolean isActive) {
         this.isActive = isActive;
     }
 

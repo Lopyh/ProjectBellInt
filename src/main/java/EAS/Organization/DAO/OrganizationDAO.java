@@ -11,4 +11,5 @@ public interface OrganizationDAO {
     public void save(Organization organization);
     public void remove(Organization organization);
     public void update(Organization organization);
+    public List<Organization> list(String name,String inn, boolean isActive);
 }
