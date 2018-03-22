@@ -26,14 +26,14 @@ VALUES (3, 2, 'ОАО Копыта Оффис 3', 'Вилиса 2231','9435245',
 
 
 INSERT INTO Users (id, office_id, first_name, last_name,
- middle_name, positionUs, phone, doc_number, doc_name, doc_date, sitizenship_name, sitizenship_code, is_identified
+ middle_name, positionUs, phone, doc_number, doc_name, doc_date, citizenship_name, citizenship_code, is_identified
 )
 VALUES (1, 2,  'Василий', 'Петров', 'Сидорович', 'Повар', '322', 123,'паспорт',
 '2012-07-24', 'УФМС Опа', 322, TRUE);
 
 
 INSERT INTO Users (id, office_id, first_name, last_name,
- middle_name, positionUs, phone, doc_number, doc_name, doc_date, sitizenship_name, sitizenship_code, is_identified
+ middle_name, positionUs, phone, doc_number, doc_name, doc_date, citizenship_name, citizenship_code, is_identified
 )
 VALUES (2, 2, 'Дмитрий', 'Петров', 'Сидорович', 'Врач', '322', 123,'паспорт',
 '2010-07-24', 'УФМС Опа', 322, TRUE);

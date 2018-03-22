@@ -3,19 +3,36 @@ package EAS.user.model;
 import EAS.office.model.Office;
 
 import javax.persistence.*;
+import java.sql.Date;
 
 @Entity
 @Table(name = "Users")
 public class Users {
 
     public Users(){
+    }
 
+    public Users(String firstName, String secondName,
+                 String middleName, String position, String phone, String docName,
+                 Integer docNumber, Date docDate, String citizenshipName, Integer citizenshipCode, boolean isIdentified){
+
+        this.firstName = firstName;
+        this.lastName = secondName;
+        this.middleName = middleName;
+        this.positionUs = position;
+        this.phone = phone;
+        this.docName = docName;
+        this.docNumber = docNumber;
+        this.docDate = docDate;
+        this.citizenshipName = citizenshipName;
+        this.citizenshipCode = citizenshipCode;
+        this.isIdentified = isIdentified;
     }
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private long id;
+    private Integer id;
 
     @Basic(optional = false)
     @Column(name = "first_name")
@@ -47,15 +64,15 @@ public class Users {
 
     @Basic(optional = false)
     @Column(name = "doc_date")
-    private String docDate;
+    private Date docDate;
 
     @Basic(optional = false)
-    @Column(name = "sitizenship_name")
-    private String sitizenshipName;
+    @Column(name = "citizenship_name")
+    private String citizenshipName;
 
     @Basic(optional = false)
-    @Column(name = "sitizenship_code")
-    private int sitizenshipCode;
+    @Column(name = "citizenship_code")
+    private int citizenshipCode;
 
     @Basic(optional = false)
     @Column(name = "is_identified")
@@ -66,22 +83,12 @@ public class Users {
     private Office office;
 
 
-//    @Override
-//    public String toString() {
-//        return "Users{" +
-//                "id=" + id +
-//                ", firstName='" + firstName + '\'' +
-//                ", lastName='" + lastName + '\'' +
-//                ", middleName='" + middleName + '\'' +
-//                ", positionUs='" + positionUs + '\'' +
-//                ", phone='" + phone + '\'' +
-//                ", docNumber=" + docNumber +
-//                ", docName='" + docName + '\'' +
-//                ", docDate='" + docDate + '\'' +
-//                ", sitizenshipName='" + sitizenshipName + '\'' +
-//                ", sitizenshipCode=" + sitizenshipCode +
-//                ", isIdentified=" + isIdentified +
-//                ", office=" + office +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\''+'}';
+
+    }
 }

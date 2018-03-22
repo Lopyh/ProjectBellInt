@@ -3,6 +3,7 @@
         login             VARCHAR(10) NOT NULL,
         password          VARCHAR(10) NOT NULL,
         name           VARCHAR(10) NOT NULL,
+        hashCode           VARCHAR,
          );
 
          CREATE TABLE IF NOT EXISTS Countries(
@@ -50,8 +51,8 @@
         doc_number        INTEGER NOT NULL,
         doc_name          VARCHAR(100) NOT NULL,
         doc_date          DATE,
-        sitizenship_name  VARCHAR(100) NOT NULL,
-        sitizenship_code  INTEGER NOT NULL,
+        citizenship_name  VARCHAR(100) NOT NULL,
+        citizenship_code  INTEGER NOT NULL,
         is_identified     BOOLEAN
         );
 
