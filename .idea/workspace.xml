@@ -1,26 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="projectBellInt:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e9a59b-4c93-4776-bfa7-32f8df3cf130" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Organization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/model/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/service/OrgService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_2_3_3_unknown.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/App.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Client/model/DAO/ClientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/Client/DAO/ClientDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/service/impl/OrgServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/Organization/service/impl/OrgServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/User/model/Users.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/User/model/Users.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/UserDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/impl/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/user/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/EAS/user/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/projectBellInt.iml" afterPath="$PROJECT_DIR$/projectBellInt.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/App.java" afterPath="$PROJECT_DIR$/src/main/java/eas/App.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Client/DAO/ClientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Client/DAO/Impl/ClientDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/DAO/OrganizationDAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/DAO/impl/OrganizationDAOImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/model/Organization.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/service/OrgService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/Organization/service/impl/OrgServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/User/model/Users.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/hashCreator/HashSHA.java" afterPath="$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/office/dao/OfficeDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/OfficeDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/office/dao/impl/OfficeDAOimpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/office/model/Office.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Office.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/office/service/OfficeService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/office/service/impl/OfficeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/DAO/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EAS/user/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Ofice/dao/impl/OfficeDAOimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Ofice/model/Office.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Organization/DAO/OrganizationDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Organization/DAO/impl/OrganizationDAOImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Organization/model/Organization.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Organization/service/OrgService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/Organization/service/impl/OrgServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/EAS/User/model/Users.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/appConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/data.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/hibernate.cfg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/hibernate.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/ru/bellintegrator/practice/Office/dao/OfficeDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/target/classes/schema.sql" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/EAS/App.class" afterPath="$PROJECT_DIR$/target/classes/EAS/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/service/impl/OrgServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/EAS/Organization/service/impl/OrgServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/User/model/Users.class" afterPath="$PROJECT_DIR$/target/classes/EAS/User/model/Users.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/DAO/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/EAS/user/DAO/UserDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/DAO/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/EAS/user/DAO/impl/UserDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/EAS/user/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/EAS/user/service/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Client/DAO/ClientDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Client/DAO/Impl/ClientDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Client/model/Client.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/DAO/OrganizationDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/DAO/impl/OrganizationDAOImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/model/Organization.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/service/OrgService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/Organization/service/impl/OrgServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/User/model/Users.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/hashCreator/HashSHA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/office/dao/OfficeDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/office/dao/impl/OfficeDAOimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/office/model/Office.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/office/service/OfficeService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/office/service/impl/OfficeServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/DAO/UserDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/DAO/impl/UserDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EAS/user/service/impl/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appConfig.xml" afterPath="$PROJECT_DIR$/target/classes/appConfig.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/data.sql" afterPath="$PROJECT_DIR$/target/classes/data.sql" />
       <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" afterPath="$PROJECT_DIR$/target/classes/schema.sql" />
     </list>
@@ -47,107 +116,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-181">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Organization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/model/Organization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/DAO/ClientDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/DAO/Impl/ClientDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="367">
+              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/OrganizationDAO.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="OrgServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/service/impl/OrgServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="-453">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/App.java">
+      <file leaf-file-name="OrgService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="71" column="56" lean-forward="true" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+            <state relative-caret-position="85">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/impl/OrganizationDAOImpl.java">
+      <file leaf-file-name="OfficeServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="-323">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <file leaf-file-name="OfficeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="68">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/ClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -160,6 +225,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -172,6 +238,9 @@
       <find>longIn</find>
       <find>siticen</find>
       <find>long</find>
+      <find>ping</find>
+      <find>org.hsqldb</find>
+      <find>Users</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,47 +254,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/EAS/MyEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/form.js" />
         <option value="$PROJECT_DIR$/src/main/resources/appConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Organization/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Organization/service/OrgService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Organization/service/impl/OrgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Organization/DAO/OrganizationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Organization/DAO/impl/OrganizationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Ofice/dao/impl/OfficeDAOimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Ofice/model/Office.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/User/model/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Ofice/dao/OfficeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/hashCreator/HashSHA.java" />
-        <option value="$PROJECT_DIR$/src/main/target/classes/schema.sql" />
-        <option value="$PROJECT_DIR$/src/main/target/classes/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/DAO/OrganizationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/service/OrgService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/DAO/impl/OrganizationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/office/dao/OfficeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/office/model/Office.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/office/service/OfficeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/office/service/impl/OfficeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/office/dao/impl/OfficeDAOimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/model/DAO/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/organizationOrika.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/organization/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/service/impl/OrgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/DAO/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/DAO/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/model/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Client/model/DAO/ClientDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Client/DAO/ClientDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/Client/DAO/Impl/ClientDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/OrganizationOrika.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/controller/OrganizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/controller/Impl/OrganizationControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/hashCreator/HashSHA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/hash/HashCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Office.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/ClientDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/OfficeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/OrganizationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/ClientDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/OfficeDAOimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/OrganizationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/OfficeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/OrgService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/OrgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/OfficeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/OfficeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/model/Office.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -235,6 +314,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -242,11 +328,26 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-237" />
-    <option name="y" value="5" />
-    <option name="width" value="804" />
-    <option name="height" value="633" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="projectBellInt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="projectBellInt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -292,6 +393,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,58 +414,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="EAS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="EAS" type="462c0819:PsiDirectoryNode" />
-              <item name="organization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../empty_project" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/EAS/Client" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -371,6 +436,7 @@
       <recent name="C:\GitHub\projectB\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\projectB\src\main" />
       <recent name="C:\GitHub\projectBellInt\src\main\java\EAS" />
       <recent name="C:\GitHub\projectBellInt\src\main\resources" />
     </key>
@@ -387,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -398,11 +464,11 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="EAS.*" />
+          <option name="PATTERN" value="eas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="EAS.App" />
+      <option name="MAIN_CLASS_NAME" value="eas.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -482,12 +548,86 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="projectBellInt:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_projectB" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49713" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.App" />
@@ -526,46 +666,55 @@
       <workItem from="1521628222561" duration="599000" />
       <workItem from="1521632302095" duration="3066000" />
       <workItem from="1521659310711" duration="7018000" />
+      <workItem from="1521707300446" duration="231000" />
+      <workItem from="1521713899203" duration="9312000" />
+      <workItem from="1521732382523" duration="2367000" />
+      <workItem from="1521743385289" duration="957000" />
+      <workItem from="1521750758521" duration="4951000" />
+      <workItem from="1521795322665" duration="4685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82323000" />
+    <option name="totallyTimeSpent" value="104826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375817" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375817" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49019608" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19440243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,116 +763,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/OrganizationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/OfficeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/impl/OrganizationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/impl/OfficeDAOimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/model/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/OrganizationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/OfficeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/impl/OfficeDAOimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/impl/OrganizationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/model/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -731,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -744,26 +783,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/EAS/CreateTable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Printer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Application.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EAS/HibernateUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EAS/MyEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/target/classes/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -778,209 +801,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/OfficeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/service/OrgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/dao/impl/OfficeDAOimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/service/OfficeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/service/impl/OfficeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/office/model/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/hashCreator/HashSHA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/controller/OrganizationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/controller/Impl/OrganizationControllerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/organization/orika/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#1198#1207#0" expanded="false" />
+            <element signature="e#1270#1278#0" expanded="false" />
+            <element signature="e#1345#1353#0" expanded="false" />
+            <element signature="e#1418#1427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/OfficeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/DAO/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        <state relative-caret-position="296">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1203#1212#0" expanded="true" />
-            <element signature="e#1272#1280#0" expanded="true" />
-            <element signature="e#1356#1364#0" expanded="true" />
-            <element signature="e#1438#1446#0" expanded="true" />
-            <element signature="e#1524#1532#0" expanded="true" />
-            <element signature="e#1609#1618#0" expanded="true" />
-            <element signature="e#1682#1691#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/service/impl/OrgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/OrganizationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/DAO/impl/OrganizationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="71" column="56" lean-forward="true" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+        <state relative-caret-position="136">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/model/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/DAO/Impl/ClientDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Client/DAO/ClientDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding />
         </state>
       </provider>

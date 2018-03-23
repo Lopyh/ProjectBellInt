@@ -11,7 +11,7 @@
     http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd"
        default-lazy-init="true">
 
-    <context:component-scan base-package="EAS"></context:component-scan>
+    <context:component-scan base-package="eas"></context:component-scan>
 
     <!-- EntityManagerFactory -->
     <bean id="emf" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
@@ -22,7 +22,7 @@
         </property>
         <!--поиск сущностей в этом пакете-->
         <property name="packagesToScan"
-                  value="EAS"/>
+                  value="eas"/>
         <!--детали конфигурации поставщика постоянства (hibernate) -->
         <property name="jpaProperties">
             <props>
@@ -37,12 +37,12 @@
         </property>
     </bean>
 
-
-
-
-
     <jdbc:embedded-database id="h2Source" type="H2">
         <jdbc:script location="classpath:schema.sql"/>
         <jdbc:script location="classpath:data.sql"/>
     </jdbc:embedded-database>
+
+    <!--<mvc:resources mapping="/**/*.*" location="/"/>-->
+
+    <!--<mvc:view-controller path="/" view-name="index.html"/>-->
 </beans>
