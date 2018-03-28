@@ -4,10 +4,14 @@ import javax.persistence.*;
 
 @Entity
 public class Client {
+    public Client(String login, String password, String name){}
     public Client(){}
 
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Integer id;
+
     @Column(name = "login")
     private String login;
 

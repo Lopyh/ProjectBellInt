@@ -1,6 +1,7 @@
-package eas.organization.orika;
+package eas.orika;
 
 
+import eas.model.Client;
 import eas.model.Organization;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.ConfigurableMapper;
@@ -17,6 +18,13 @@ public class Mapper extends ConfigurableMapper {
                 .field("phone","phone")
                 .field("isActive","isActive")
                 .field("offices","offices")
+                .byDefault()
+                .register();
+
+        factory.classMap(Client.class, ClientOrika.class)
+                .field("login","login")
+                .field("password", "password")
+                .field("name", "name")
                 .byDefault()
                 .register();
     }

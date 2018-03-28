@@ -42,7 +42,5 @@
         <jdbc:script location="classpath:data.sql"/>
     </jdbc:embedded-database>
 
-    <!--<mvc:resources mapping="/**/*.*" location="/"/>-->
 
-    <!--<mvc:view-controller path="/" view-name="index.html"/>-->
 </beans>

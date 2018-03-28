@@ -2,118 +2,64 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="projectBellInt:war" />
+      <artifact name="projectBellInt:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e9a59b-4c93-4776-bfa7-32f8df3cf130" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/EAS/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/ControllerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/ClientDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/OfficeDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/OrganizationDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/UserDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/impl/ClientDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/impl/OfficeDAOimpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/impl/OrganizationDAOImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/hash/HashCreator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/model/Client.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/model/Office.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/model/Organization.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/model/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/organization/orika/Mapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/organization/orika/OrganizationOrika.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/ClientService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/OfficeService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/OrgService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/impl/ClientServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/impl/OfficeServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/impl/OrgServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eas/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/appConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/data.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/ControllerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/ClientDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/OfficeDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/OrganizationDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/UserDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/impl/ClientDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/impl/OfficeDAOimpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/impl/OrganizationDAOImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/hash/HashCreator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/model/Client.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/model/Office.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/model/Organization.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/model/Users.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/organization/orika/Mapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/organization/orika/OrganizationOrika.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/ClientService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/OfficeService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/OrgService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/impl/ClientServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/impl/OfficeServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/impl/OrgServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/eas/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/classes/schema.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/concurrentlinkedhashmap-lru-1.2_jdk5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/derby-10.14.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/h2-1.4.196.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.14.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/java-sizeof-0.0.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/orika-core-1.4.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/paranamer-2.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.4.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/js/angular.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/js/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/test.jsp" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/projectBellInt_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/projectBellInt_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/projectBellInt.iml" afterPath="$PROJECT_DIR$/projectBellInt.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/App.java" afterPath="$PROJECT_DIR$/src/main/java/eas/App.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/organization/orika/Mapper.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/Mapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/OrganizationOrika.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/ClientService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/ClientService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,96 +82,25 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="projectB" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="ClientControllerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrgServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-453">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrgService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfficeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfficeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/ClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -233,9 +108,90 @@
       <file leaf-file-name="ClientServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientOrika.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWeb-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-236">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,8 +202,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -263,6 +219,8 @@
       <find>ping</find>
       <find>org.hsqldb</find>
       <find>Users</find>
+      <find>dispa</find>
+      <find>jack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -276,33 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/js/form.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/appConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/organizationOrika.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/OrganizationOrika.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/orikaMapping/Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/controller/OrganizationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/organization/controller/Impl/OrganizationControllerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/ControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/hashCreator/HashSHA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/hash/HashCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Office.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/model/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/ClientDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/OfficeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/OrganizationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/ClientDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/OfficeDAOimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/OrganizationDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/service/ClientService.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/service/OfficeService.java" />
@@ -312,21 +243,48 @@
         <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/OrgServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/OfficeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/EAS/service/impl/ClientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eas/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/OfficeDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/model/Organization.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/model/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/eas/model/Office.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/OrganizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/OrganizationControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/SimpleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/organization/orika/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/orika/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/model/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/appConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ProbPostman.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -382,6 +340,9 @@
             <id>CodeSpring CoreSpring</id>
           </State>
           <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
             <id>Spring</id>
           </State>
           <State>
@@ -393,13 +354,15 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringXmlModelInspection</id>
+            <id>WebProperties</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -415,9 +378,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,31 +399,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../empty_project" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/EAS/Client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/eas" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25747126" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="EAS.Organization.DAO.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHub\projectB\src\main" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\projectB\src\main\webapp" />
       <recent name="C:\GitHub\projectB\src\main" />
       <recent name="C:\GitHub\projectBellInt\src\main\java\EAS" />
       <recent name="C:\GitHub\projectBellInt\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\projectB\src\main\webapp\WEB-INF" />
+      <recent name="C:\GitHub\projectB\src\main\webapp" />
+      <recent name="C:\GitHub\projectB\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\GitHub\projectB\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -580,7 +566,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_projectB" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_projectB_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -589,7 +575,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49713" />
+        <option name="DEBUG_PORT" value="52166" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -637,7 +623,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="projectBellInt:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -645,6 +634,18 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="projectBellInt" />
+      <envs />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
@@ -693,19 +694,39 @@
       <workItem from="1521732382523" duration="2367000" />
       <workItem from="1521743385289" duration="957000" />
       <workItem from="1521750758521" duration="4951000" />
-      <workItem from="1521795322665" duration="5093000" />
+      <workItem from="1521795322665" duration="8522000" />
+      <workItem from="1521817278824" duration="2499000" />
+      <workItem from="1522007795341" duration="17317000" />
+      <workItem from="1522061883255" duration="4909000" />
+      <workItem from="1522070646079" duration="556000" />
+      <workItem from="1522071354535" duration="2986000" />
+      <workItem from="1522089469203" duration="1463000" />
+      <workItem from="1522127802513" duration="1431000" />
+      <workItem from="1522143888096" duration="2011000" />
+      <workItem from="1522153742663" duration="13762000" />
+      <workItem from="1522169111018" duration="6962000" />
+      <workItem from="1522248135366" duration="7259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105234000" />
+    <option name="totallyTimeSpent" value="169818000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375817" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.374183" sideWeight="0.52420574" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -714,28 +735,31 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49092284" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28431374" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.374183" sideWeight="0.47579426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25945538" sideWeight="0.11764706" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29500756" sideWeight="0.88235295" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.5104712" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.5104712" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,294 +808,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/ControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/target/projectB-1.0-SNAPSHOT/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/projectBellInt.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="714">
+          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/CreateTable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Printer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/HibernateUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/MyEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/target/classes/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/target/classes/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/OrganizationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/angular.min.js">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/projectBellInt_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/ControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/controller/OrganizationController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/EAS/organization/controller/Impl/OrganizationControllerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/organization/orika/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/organization/orika/OrganizationOrika.java">
+    <entry file="file://$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/target/projectBellInt-1.0-SNAPSHOT/js/form.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/SimpleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/impl/OrganizationControllerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#1198#1207#0" expanded="false" />
-            <element signature="e#1270#1278#0" expanded="false" />
-            <element signature="e#1345#1353#0" expanded="false" />
-            <element signature="e#1418#1427#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="442">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/OfficeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/OrganizationOrika.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1079,60 +881,320 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="833">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/model/Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyMvcControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="-450">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="247">
+          <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/impl/ProbPostman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>projectBellInt:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25747126" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>projectBellInt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,9 +1,9 @@
 
         CREATE TABLE IF NOT EXISTS Client (
+        id            INTEGER  PRIMARY KEY AUTO_INCREMENT,
         login             VARCHAR(10) NOT NULL,
         password          VARCHAR(10) NOT NULL,
         name           VARCHAR(10) NOT NULL,
-        hashCode           VARCHAR,
          );
 
          CREATE TABLE IF NOT EXISTS Countri(

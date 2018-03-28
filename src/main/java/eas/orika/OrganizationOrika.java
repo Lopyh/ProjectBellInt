@@ -1,4 +1,4 @@
-package eas.organization.orika;
+package eas.orika;
 
 import eas.model.Office;
 

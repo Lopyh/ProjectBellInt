@@ -1,8 +1,8 @@
-INSERT INTO Client (login, password, name)
-VALUES ('log', 'password','vasya322');
+INSERT INTO Client (id, login, password, name)
+VALUES (1, 'log', 'password','vasya322');
 
-INSERT INTO Client (login, password, name)
-VALUES ('loadsfg', 'password','vasya322',);
+INSERT INTO Client (id, login, password, name)
+VALUES (2, 'loadsfg', 'password','vasya322');
 
 
 INSERT INTO Organization (id, name, full_name, inn, kpp, address, phone, isActive)

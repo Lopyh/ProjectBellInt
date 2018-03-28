@@ -1,14 +1,18 @@
 package eas;
 
+import eas.dao.ClientDAO;
 import eas.dao.OrganizationDAO;
+import eas.model.Client;
 import eas.model.Organization;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.List;
+
 
 public class App {
     public static void main(String[] args) {
-        ApplicationContext application = new ClassPathXmlApplicationContext("appConfig.xml");
+        ApplicationContext application = new ClassPathXmlApplicationContext("WEB-INF/appConfig.xml");
 //
         OrganizationDAO dao = (OrganizationDAO) application.getBean(OrganizationDAO.class);
         Organization org = dao.getById(1);
@@ -46,6 +50,19 @@ public class App {
 //        UserService userDAO = application.getBean(UserService.class);
 //        userDAO.save("Василий", "Петров", "Сидорович", "Повар", "322", "",123,
 //                Date.valueOf("2012-07-24"), "УФМС Опа", 322, true);
+
+        ClientDAO clientDAO =application.getBean(ClientDAO.class);
+        Client mn = new Client("Vasya", "qwer123", "Vasilii");
+        clientDAO.registr(mn);
+
+        ClientDAO clientDAO1 =application.getBean(ClientDAO.class);
+        List<Client> list = clientDAO1.list();
+
+        for (Client o: list
+             ) {
+            System.out.println(o);
+        }
+
 
 
     }
