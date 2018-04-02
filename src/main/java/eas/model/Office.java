@@ -12,8 +12,8 @@ public class Office {
 
     }
 
-    public Office(String nameOf, String address, String phone, boolean isActive){
-        this.nameOf = nameOf;
+    public Office(String name, String address, String phone, boolean isActive){
+        this.name = name;
         this.address = address;
         this.phone = phone;
         this.isActive = isActive;
@@ -26,11 +26,10 @@ public class Office {
 
     @Basic(optional = false)
     @Column(name = "name")
-    private String nameOf;
+    private String name;
 
     @Basic(optional = false)
     @Column(name = "address")
-
     private String address;
 
     @Basic(optional = false)
@@ -46,7 +45,7 @@ public class Office {
     @JoinColumn(name = "org_id")
     private Organization organization;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "office", cascade = {CascadeType.PERSIST, CascadeType.MERGE}, orphanRemoval = true)
     private List<User> user;
 
 
@@ -58,12 +57,12 @@ public class Office {
         this.id = id;
     }
 
-    public String getNameOf() {
-        return nameOf;
+    public String getName() {
+        return name;
     }
 
-    public void setNameOf(String nameOf) {
-        this.nameOf = nameOf;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAddress() {
@@ -110,7 +109,7 @@ public class Office {
     public String toString() {
         return "Office{" +
                 "id=" + id +
-                ", nameOf='" + nameOf + '\'' +
+                ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
                 ", isActive=" + isActive +

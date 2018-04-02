@@ -1,29 +1,31 @@
 package eas.service.impl;
 
-import eas.dao.ClientDAO;
-import eas.model.Client;
-import eas.orika.ClientOrika;
-import eas.service.ClientService;
+import eas.dao.DocsDAO;
+
+import eas.model.DocType;
+
+import eas.service.DocsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Scope(proxyMode = ScopedProxyMode.INTERFACES)
-public class ClientServiceImpl implements ClientService{
-    private ClientDAO dao;
+public class DocsServiceImpl implements DocsService{
+    DocsDAO dao;
 
     @Autowired
-    private ClientServiceImpl(ClientDAO dao){
+    DocsServiceImpl(DocsDAO dao){
         this.dao = dao;
     }
 
-
+    @Override
     @Transactional
-    public void save(ClientOrika orika) {
-        Client client = new Client(orika.getLogin(), orika.getPassword(), orika.getName());
-        dao.registr(client);
+    public List<DocType> list() {
+       return dao.list();
     }
 }

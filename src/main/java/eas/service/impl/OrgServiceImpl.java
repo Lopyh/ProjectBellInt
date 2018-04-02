@@ -3,60 +3,75 @@ package eas.service.impl;
 
 import eas.dao.OrganizationDAO;
 import eas.model.Organization;
+import eas.orika.OrganizationOrika;
+import eas.orika.OrikaMapperFactory;
 import eas.service.OrgService;
+import ma.glasnost.orika.MapperFacade;
+import ma.glasnost.orika.MapperFactory;
+import ma.glasnost.orika.impl.DefaultMapperFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
 @Service
+@Scope(proxyMode = ScopedProxyMode.INTERFACES)
 public class OrgServiceImpl implements OrgService {
+
+    OrikaMapperFactory mapperFactory;
     OrganizationDAO dao;
 
     @Autowired
-    private OrgServiceImpl(OrganizationDAO dao){
+    private OrgServiceImpl(OrganizationDAO dao, OrikaMapperFactory mapperFactory) {
         this.dao = dao;
+        this.mapperFactory = mapperFactory;
     }
+
 
     @Override
     @Transactional
-    public List<Organization> list(String name,String inn, boolean isActive) {
-       return dao.list(name, inn, isActive);
-    }
-
-    @Override
-    @Transactional
-    public String getById(Integer id){
-        return ("id: "+dao.getById(id).getId()+", name: "+dao.getById(id).getNameOr()+
-                ", fullName "+"inn: "+dao.getById(id).getInn()+", kkp: "+dao.getById(id).getKpp()+
-                ", adress: "+dao.getById(id).getAddress()+", phone: "+dao.getById(id).getPhone()+
-                ", isActive: "+dao.getById(id).getIsActive());
-    }
-
-    @Override
-    @Transactional
-    public String delete(Integer id) {
-        if (dao.getById(id)!=null){
-            dao.remove(dao.getById(id));
+    public List<OrganizationOrika> list(OrganizationOrika organizationOrika) {
+        Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
+        List<Organization> organizationList = dao.list(organization.getName(),organization.getInn(),organization.getIsActive());
+        List<OrganizationOrika> result = new ArrayList<OrganizationOrika>();
+        for (Organization o: organizationList
+             ) {
+            result.add(mapperFactory.getOrgMapper().map(o));
         }
-        return "Success";
+        return result;
     }
 
     @Override
     @Transactional
-    public String saveOrg(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
-        Organization organization = new Organization(nameOr, fullName, inn, kpp, address, phone, isActive);
+    public OrganizationOrika getById(Integer id){
+        OrganizationOrika organizationOrika = mapperFactory.getOrgMapper().map(dao.getById(id));
+        return organizationOrika;
+    }
+
+    @Override
+    @Transactional
+    public void delete(OrganizationOrika organizationOrika) {
+        if (dao.getById(organizationOrika.getId())!=null){
+            dao.remove(dao.getById(organizationOrika.getId()));
+        }
+    }
+
+    @Override
+    @Transactional
+    public void saveOrg(OrganizationOrika organizationOrika) {
+        Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
         dao.save(organization);
-        return "Success";
     }
 
     @Override
     @Transactional
-    public String update(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
-       return "Success";
+    public void update(OrganizationOrika organizationOrika) {
+        Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
+        dao.update(organization);
     }
-
-
 }

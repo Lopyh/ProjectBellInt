@@ -17,7 +17,7 @@ public class User {
         this.firstName = firstName;
         this.lastName = secondName;
         this.middleName = middleName;
-        this.positionUs = position;
+        this.position = position;
         this.phone = phone;
         this.docName = docName;
         this.docNumber = docNumber;
@@ -45,8 +45,8 @@ public class User {
     private String middleName;
 
     @Basic(optional = false)
-    @Column(name = "positionUs")
-    private String positionUs;
+    @Column(name = "position")
+    private String position;
 
     @Basic(optional = false)
     @Column(name = "phone")
@@ -55,6 +55,14 @@ public class User {
     @Basic(optional = false)
     @Column(name = "doc_number")
     private int docNumber;
+
+
+//    @ManyToOne
+//    @JoinColumns({
+//            @JoinColumn(name="MGR_COUNTRY", referencedColumnName="COUNTRY"),
+//            @JoinColumn(name="MGR_ID", referencedColumnName="EMP_ID")
+//    })
+
 
     @Basic(optional = false)
     @Column(name = "doc_name")

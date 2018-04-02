@@ -6,6 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface ClientController {
-    String register(@RequestBody ClientOrika orika);
+    void register(@RequestBody ClientOrika orika);
     String activation(String code);
 }

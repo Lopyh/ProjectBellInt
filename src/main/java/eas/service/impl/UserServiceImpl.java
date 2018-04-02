@@ -3,63 +3,65 @@ package eas.service.impl;
 
 import eas.dao.UserDAO;
 import eas.model.User;
+import eas.orika.OrikaMapperFactory;
+import eas.orika.UserOrika;
 import eas.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.sql.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@Scope(proxyMode = ScopedProxyMode.INTERFACES)
 public class UserServiceImpl implements UserService {
     private UserDAO dao;
+    OrikaMapperFactory mapperFactory;
 
     @Autowired
-    UserServiceImpl(UserDAO dao){
+    UserServiceImpl(UserDAO dao, OrikaMapperFactory mapperFactory){
         this.dao = dao;
+        this.mapperFactory = mapperFactory;
     }
 
     @Override
     @Transactional
-    public User getById(Integer id) {
-        return dao.getById(id);
+    public UserOrika getById(Integer id) {
+        return mapperFactory.getUserMapper().map(dao.getById(id));
     }
 
     @Override
     @Transactional
-    public List<User> list(Integer officeId, String firstName, String lastName, String middleName,
-                            String position, Integer docCode, Integer citizenshipCode) {
-        return dao.list(officeId, firstName, lastName, middleName, position,docCode, citizenshipCode);
-    }
-
-    @Override
-    @Transactional
-    public String update(Integer id, String firstName, String secondName,
-                         String middleName, String position, String phone, String docName,
-                         Integer docNumber, String docDate, String citizenshipName, Integer citizenshipCode, boolean isIdentified) {
-        return "Success";
-    }
-
-    @Override
-    @Transactional
-    public String delete(Integer id) {
-        if (dao.getById(id)!=null){
-            dao.remove(dao.getById(id));
+    public List<UserOrika> list(UserOrika userOrika) {
+        List<User> userList = dao.list(userOrika.getId(), userOrika.getFirstName(), userOrika.getLastName(), userOrika.getMiddleName(),
+                userOrika.getPosition(), userOrika.getDocNumber(), userOrika.getCitizenshipCode());
+        List<UserOrika> result = new ArrayList<UserOrika>();
+        for (User o: userList
+             ) {
+            result.add(mapperFactory.getUserMapper().map(o));
         }
-        return "Success";
+        return result;
     }
 
     @Override
     @Transactional
-    public String save(String firstName, String secondName,
-                       String middleName, String position, String phone, String docName,
-                       Integer docNumber, Date docDate, String citizenshipName, Integer citizenshipCode, boolean isIdentified) {
-        User user = new User(firstName, secondName, middleName, position, phone, docName, docNumber,
-                docDate, citizenshipName, citizenshipCode, isIdentified);
+    public void delete(UserOrika userOrika) {
+        if (dao.getById(userOrika.getId())!=null){
+            dao.remove(dao.getById(userOrika.getId()));
+        }
+    }
 
+    @Override
+    @Transactional
+    public void save(UserOrika userOrika){
+        dao.save(mapperFactory.getUserMapper().mapReverse(userOrika));
+    }
 
-        dao.save(user);
-        return "Success";
+    @Override
+    @Transactional
+    public void update(UserOrika userOrika) {
+        dao.update(mapperFactory.getUserMapper().mapReverse(userOrika));
     }
 }

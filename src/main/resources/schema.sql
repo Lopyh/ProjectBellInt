@@ -6,22 +6,24 @@
         name           VARCHAR(10) NOT NULL,
          );
 
-         CREATE TABLE IF NOT EXISTS Countri(
+         CREATE TABLE IF NOT EXISTS Country(
+         id                INTEGER  PRIMARY KEY AUTO_INCREMENT,
          name           VARCHAR(100) NOT NULL,
          code             INTEGER  NOT NULL,
          );
 
-        CREATE TABLE IF NOT EXISTS Docs(
-         name_doc          VARCHAR(100) NOT NULL,
-         code            INTEGER  NOT NULL,
+        CREATE TABLE IF NOT EXISTS DocType(
+        id                INTEGER  PRIMARY KEY AUTO_INCREMENT,
+        name_doc          VARCHAR(100) NOT NULL,
+        code            INTEGER  NOT NULL,
          );
 
         CREATE TABLE IF NOT EXISTS Organization (
         id            INTEGER  PRIMARY KEY AUTO_INCREMENT,
         name        VARCHAR(50) NOT NULL,
         full_name      VARCHAR(150) NOT NULL,
-        inn           INTEGER  NOT NULL,
-        kpp           INTEGER  NOT NULL,
+        inn           VARCHAR(15) NOT NULL,
+        kpp           VARCHAR(15) NOT NULL,
         address       VARCHAR(200) NOT NULL,
         phone         VARCHAR(11) NOT NULL,
         isActive      BOOLEAN

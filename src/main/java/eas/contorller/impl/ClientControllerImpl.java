@@ -10,9 +10,6 @@ import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON;
-import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
-
 @RestController
 @RequestMapping(value = "/", produces = "application/json")
 public class ClientControllerImpl implements ClientController {
@@ -30,8 +27,8 @@ public class ClientControllerImpl implements ClientController {
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/register", method = RequestMethod.POST, consumes = "application/json")
-    public String register(@RequestBody ClientOrika orika){
-        return orika.toString();
+    public void register(@RequestBody ClientOrika orika){
+        clientService.save(orika);
     }
 
 

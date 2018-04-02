@@ -2,20 +2,15 @@ package eas.service;
 
 
 import eas.model.Organization;
+import eas.orika.OrganizationOrika;
 
 import java.util.List;
 
 public interface OrgService {
-
-
-
-    public List<Organization> list(String name,String inn, boolean isActive);
-    public String getById(Integer id);
-    public String delete(Integer id);
-    public String saveOrg(String nameOr, String fullName, String inn,
-                          int kpp, String address, String phone, boolean isActive);
-    public String update(String nameOr, String fullName, String inn,
-                         int kpp, String address, String phone, boolean isActive);
-
+    public List<OrganizationOrika> list(OrganizationOrika organizationOrika);
+    public OrganizationOrika getById(Integer id);
+    public void delete(OrganizationOrika organizationOrika);
+    public void saveOrg(OrganizationOrika organizationOrika);
+    public void update(OrganizationOrika organizationOrika);
 
 }

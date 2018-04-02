@@ -10,8 +10,8 @@ public class Organization {
 
     }
 
-    public Organization(String nameOr, String fullName, String inn, int kpp, String address, String phone, boolean isActive) {
-        this.nameOr = nameOr;
+    public Organization(String name, String fullName, String inn, String kpp, String address, String phone, boolean isActive) {
+        this.name = name;
         this.fullName = fullName;
         this.inn = inn;
         this.kpp = kpp;
@@ -26,7 +26,7 @@ public class Organization {
 
         @Basic(optional = false)
         @Column(name = "name")
-        private String nameOr;
+        private String name;
 
         @Basic(optional = false)
         @Column(name = "full_name")
@@ -38,7 +38,7 @@ public class Organization {
 
         @Basic(optional = false)
         @Column(name = "kpp")
-        private Integer kpp;
+        private String kpp;
 
         @Basic(optional = false)
         @Column(name = "address")
@@ -52,7 +52,8 @@ public class Organization {
         @Column(name = "isActive")
         private boolean isActive;
 
-        @OneToMany(fetch = FetchType.LAZY, mappedBy = "organization", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+        @OneToMany(fetch = FetchType.LAZY, mappedBy = "organization",
+                cascade = {CascadeType.PERSIST, CascadeType.MERGE}, orphanRemoval = true)
         private List<Office> offices;
 
         public Integer getId() {
@@ -63,12 +64,12 @@ public class Organization {
             this.id = id;
         }
 
-        public String getNameOr() {
-            return nameOr;
+        public String getName() {
+            return name;
         }
 
-        public void setNameOr(String nameOr) {
-            this.nameOr = nameOr;
+        public void setName(String nameOr) {
+            this.name = nameOr;
         }
 
         public String getFullName() {
@@ -87,11 +88,11 @@ public class Organization {
             this.inn = inn;
         }
 
-        public int getKpp() {
+        public String getKpp() {
             return kpp;
         }
 
-        public void setKpp(int kpp) {
+        public void setKpp(String kpp) {
             this.kpp = kpp;
         }
 
@@ -124,7 +125,7 @@ public class Organization {
     public String toString() {
         return "Organization{" +
                 "id=" + getId() +
-                ", nameOr='" + getNameOr() + '\'' +
+                ", name='" + getName() + '\'' +
                 ", fullName='" + getFullName() + '\'' +
                 ", inn=" + getInn() +
                 ", kpp=" + getKpp() +

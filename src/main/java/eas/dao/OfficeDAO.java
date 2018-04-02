@@ -6,11 +6,10 @@ import eas.model.Office;
 import java.util.List;
 
 public interface OfficeDAO {
-    /**Лист всех офисов*/
-    List<Office> all();
+
     /**Лист офисов с опр. занчениями полей*/
     List<Office> list(Integer orgId, String name, String phone, boolean isActive);
-    /**Посик офиса по Id*/
+    /**Посик офиса по Id */
     Office getById(Integer id);
     /**Обнавление офиса*/
     public void update(Office office);

@@ -20,12 +20,6 @@ public class OfficeDAOimpl implements OfficeDAO {
 
 
     @Override
-    public List<Office> all() {
-        TypedQuery<Office> query = em.createQuery("SELECT h FROM Office h", Office.class);
-        return query.getResultList();
-    }
-
-    @Override
     public List<Office> list(Integer orgId, String name, String phone, boolean isActive) {
         CriteriaBuilder builder = em.getCriteriaBuilder();
         CriteriaQuery<Office> criteria = builder.createQuery(Office.class);
@@ -33,7 +27,7 @@ public class OfficeDAOimpl implements OfficeDAO {
 
         CriteriaQuery<Office> where = criteria.where(builder.and(
                 builder.equal(root.<Integer>get("organization"), orgId),
-                builder.like(root.<String>get("nameOf"),"%" + name + "%"),
+                builder.like(root.<String>get("name"),"%" + name + "%"),
                 builder.like(root.<String>get("phone"), "%"+phone+"%"),
                 builder.equal(root.<Boolean>get("isActive"), isActive)
 
