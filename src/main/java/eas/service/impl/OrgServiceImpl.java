@@ -1,14 +1,12 @@
 package eas.service.impl;
 
 
+
 import eas.dao.OrganizationDAO;
 import eas.model.Organization;
 import eas.orika.OrganizationOrika;
 import eas.orika.OrikaMapperFactory;
 import eas.service.OrgService;
-import ma.glasnost.orika.MapperFacade;
-import ma.glasnost.orika.MapperFactory;
-import ma.glasnost.orika.impl.DefaultMapperFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
@@ -27,7 +25,7 @@ public class OrgServiceImpl implements OrgService {
     OrganizationDAO dao;
 
     @Autowired
-    private OrgServiceImpl(OrganizationDAO dao, OrikaMapperFactory mapperFactory) {
+    public OrgServiceImpl(OrganizationDAO dao, OrikaMapperFactory mapperFactory) {
         this.dao = dao;
         this.mapperFactory = mapperFactory;
     }
@@ -36,8 +34,8 @@ public class OrgServiceImpl implements OrgService {
     @Override
     @Transactional
     public List<OrganizationOrika> list(OrganizationOrika organizationOrika) {
-        Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
-        List<Organization> organizationList = dao.list(organization.getName(),organization.getInn(),organization.getIsActive());
+        List<Organization> organizationList = dao.list(organizationOrika.getName(),
+                organizationOrika.getInn(),Boolean.valueOf(organizationOrika.getIsActive()));
         List<OrganizationOrika> result = new ArrayList<OrganizationOrika>();
         for (Organization o: organizationList
              ) {
@@ -49,7 +47,9 @@ public class OrgServiceImpl implements OrgService {
     @Override
     @Transactional
     public OrganizationOrika getById(Integer id){
-        OrganizationOrika organizationOrika = mapperFactory.getOrgMapper().map(dao.getById(id));
+        Organization organization = dao.getById(id);
+        OrganizationOrika organizationOrika = mapperFactory.getOrgMapper().map(organization);
+        organizationOrika.setIsActive(String.valueOf(organization.getIsActive()));
         return organizationOrika;
     }
 
@@ -65,13 +65,22 @@ public class OrgServiceImpl implements OrgService {
     @Transactional
     public void saveOrg(OrganizationOrika organizationOrika) {
         Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
+        organization.setIsActive(Boolean.valueOf(organizationOrika.getIsActive()));
         dao.save(organization);
     }
 
     @Override
     @Transactional
     public void update(OrganizationOrika organizationOrika) {
-        Organization organization = mapperFactory.getOrgMapper().mapReverse(organizationOrika);
+        Organization organization = dao.getById(organizationOrika.getId());
+        organization.setName(organizationOrika.getName());
+        organization.setFullName(organizationOrika.getFullName());
+        organization.setInn(organizationOrika.getInn());
+        organization.setKpp(organizationOrika.getKpp());
+        organization.setAddress(organizationOrika.getAddress());
+        organization.setPhone(organizationOrika.getPhone());
+        organization.setIsActive(Boolean.valueOf(organizationOrika.getIsActive()));
+
         dao.update(organization);
     }
 }

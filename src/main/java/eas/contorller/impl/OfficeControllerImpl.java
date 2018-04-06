@@ -27,8 +27,9 @@ public class OfficeControllerImpl implements OfficeController{
             @ApiResponse(code = 200, message = "Success", response = String.class),
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
-    @RequestMapping(value = "api/office/list", method = RequestMethod.POST, consumes = "application/json")
-    public List<OfficeOrika> list(@RequestBody  OfficeOrika officeOrika) {
+    @RequestMapping(value = "api/office/list/{orgId}", method = RequestMethod.POST, consumes = "application/json")
+    public List<OfficeOrika> list(@PathVariable("orgId") Integer orgId, @RequestBody  OfficeOrika officeOrika) {
+        officeOrika.setOrgId(orgId);
         return officeService.list(officeOrika);
 }
 
@@ -36,8 +37,8 @@ public class OfficeControllerImpl implements OfficeController{
     @Override
     @ApiOperation(value = "getById", nickname = "getById", httpMethod = "GET")
     @RequestMapping(value = "api/office/{id}", method = RequestMethod.GET)
-    public String getById(@PathVariable("id") Integer id) {
-        return officeService.getById(id).toString();
+    public OfficeOrika getById(@PathVariable("id") Integer id) {
+        return officeService.getById(id);
     }
 
     @Override
@@ -47,8 +48,13 @@ public class OfficeControllerImpl implements OfficeController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/office/update", method = RequestMethod.POST, consumes = "application/json")
-    public void update(@RequestBody OfficeOrika officeOrika) {
-        officeService.update(officeOrika);
+    public ResultView update(@RequestBody OfficeOrika officeOrika) {
+        try {officeService.update(officeOrika);
+            return new ResultView();
+        }
+        catch (Exception e){
+            return new ResultView(e.toString());
+        }
     }
 
     @Override
@@ -58,8 +64,14 @@ public class OfficeControllerImpl implements OfficeController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/office/delete", method = RequestMethod.POST, consumes = "application/json")
-    public void delete(@RequestBody OfficeOrika officeOrika) {
+    public ResultView delete(@RequestBody OfficeOrika officeOrika) {
+        try{
         officeService.delete(officeOrika);
+        return new ResultView();
+    }
+        catch (Exception e){
+        return new ResultView(e.toString());
+    }
     }
 
     @Override
@@ -69,7 +81,14 @@ public class OfficeControllerImpl implements OfficeController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/office/save", method = RequestMethod.POST, consumes = "application/json")
-    public void save(@RequestBody OfficeOrika officeOrika) {
-        officeService.save(officeOrika);
+    public ResultView save(@RequestBody OfficeOrika officeOrika) {
+        try {
+            officeService.save(officeOrika);
+            return new ResultView();
+        }
+        catch (Exception e){
+            return new ResultView(e.toString());
+        }
+
     }
 }

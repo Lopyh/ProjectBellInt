@@ -41,7 +41,7 @@ public class Office {
     private boolean isActive;
 
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "org_id")
     private Organization organization;
 
@@ -49,7 +49,7 @@ public class Office {
     private List<User> user;
 
 
-    public long getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -81,12 +81,12 @@ public class Office {
         this.phone = phone;
     }
 
-    public boolean getIsActive() {
+    public boolean isActive() {
         return isActive;
     }
 
-    public void setIsActive(boolean isActive) {
-        this.isActive = isActive;
+    public void setActive(boolean active) {
+        isActive = active;
     }
 
     public Organization getOrganization() {

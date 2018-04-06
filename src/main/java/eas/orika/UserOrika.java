@@ -3,20 +3,24 @@ package eas.orika;
 import java.sql.Date;
 
 public class UserOrika {
+    public UserOrika() {
+    }
 
+
+    private Integer officeId;
     private Integer id;
     private String firstName;
     private String lastName;
     private String middleName;
     private String position;
     private String phone;
-    private int docNumber;
+    private Integer docCode;
     private String docName;
+    private String docNumber;
     private Date docDate;
     private String citizenshipName;
-    private int citizenshipCode;
-    private Boolean isIdentified;
-    private OfficeOrika office;
+    private Integer citizenshipCode;
+    private String isIdentified;
 
     public Integer getId() {
         return id;
@@ -24,6 +28,14 @@ public class UserOrika {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Integer getOfficeId() {
+        return officeId;
+    }
+
+    public void setOfficeId(Integer officeId) {
+        this.officeId = officeId;
     }
 
     public String getFirstName() {
@@ -66,12 +78,12 @@ public class UserOrika {
         this.phone = phone;
     }
 
-    public int getDocNumber() {
-        return docNumber;
+    public Integer getDocCode() {
+        return docCode;
     }
 
-    public void setDocNumber(int docNumber) {
-        this.docNumber = docNumber;
+    public void setDocCode(Integer docCode) {
+        this.docCode = docCode;
     }
 
     public String getDocName() {
@@ -80,6 +92,14 @@ public class UserOrika {
 
     public void setDocName(String docName) {
         this.docName = docName;
+    }
+
+    public String getDocNumber() {
+        return docNumber;
+    }
+
+    public void setDocNumber(String docNumber) {
+        this.docNumber = docNumber;
     }
 
     public Date getDocDate() {
@@ -98,27 +118,39 @@ public class UserOrika {
         this.citizenshipName = citizenshipName;
     }
 
-    public int getCitizenshipCode() {
+    public Integer getCitizenshipCode() {
         return citizenshipCode;
     }
 
-    public void setCitizenshipCode(int citizenshipCode) {
+    public void setCitizenshipCode(Integer citizenshipCode) {
         this.citizenshipCode = citizenshipCode;
     }
 
-    public Boolean getIdentified() {
+    public String getIsIdentified() {
         return isIdentified;
     }
 
-    public void setIdentified(Boolean identified) {
-        isIdentified = identified;
+    public void setIsIdentified(String isIdentified) {
+        this.isIdentified = isIdentified;
     }
 
-    public OfficeOrika getOffice() {
-        return office;
-    }
-
-    public void setOffice(OfficeOrika office) {
-        this.office = office;
+    @Override
+    public String toString() {
+        return "UserOrika{" +
+                "officeId=" + officeId +
+                ", id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", position='" + position + '\'' +
+                ", phone='" + phone + '\'' +
+                ", docCode=" + docCode +
+                ", docName='" + docName + '\'' +
+                ", docNumber='" + docNumber + '\'' +
+                ", docDate=" + docDate +
+                ", citizenshipName='" + citizenshipName + '\'' +
+                ", citizenshipCode=" + citizenshipCode +
+                ", isIdentified='" + isIdentified + '\'' +
+                '}';
     }
 }

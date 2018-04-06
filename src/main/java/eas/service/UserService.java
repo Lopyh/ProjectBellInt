@@ -1,9 +1,7 @@
 package eas.service;
 
-import eas.model.User;
-import eas.orika.UserOrika;
 
-import java.sql.Date;
+import eas.orika.UserOrika;
 import java.util.List;
 
 public interface UserService {

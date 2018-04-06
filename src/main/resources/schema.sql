@@ -2,8 +2,10 @@
         CREATE TABLE IF NOT EXISTS Client (
         id            INTEGER  PRIMARY KEY AUTO_INCREMENT,
         login             VARCHAR(10) NOT NULL,
-        password          VARCHAR(10) NOT NULL,
+        password          VARCHAR NOT NULL,
         name           VARCHAR(10) NOT NULL,
+        activation_code      VARCHAR NOT NULL,
+
          );
 
          CREATE TABLE IF NOT EXISTS Country(
@@ -50,11 +52,10 @@
         middle_name       VARCHAR(30) NOT NULL,
         position        VARCHAR(100) NOT NULL,
         phone             VARCHAR(11) NOT NULL,
-        doc_number        INTEGER NOT NULL,
-        doc_name          VARCHAR(100) NOT NULL,
+        doc_type_id       INTEGER,
+        doc_number        VARCHAR(11) NOT NULL,
         doc_date          DATE,
-        citizenship_name  VARCHAR(100) NOT NULL,
-        citizenship_code  INTEGER NOT NULL,
+        country_id        INTEGER,
         is_identified     BOOLEAN
         );
 

@@ -1,14 +1,16 @@
 package eas.model;
 
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class DocType {
-    DocType(){}
+    public DocType(){}
 
-    public DocType(String nameDoc, Integer code) {
-        this.nameDoc = nameDoc;
-        this.code = code;
+    public DocType(String docName, Integer docCode) {
+        this.docName = docName;
+        this.docCode = docCode;
     }
 
     @Id
@@ -18,29 +20,50 @@ public class DocType {
 
     @Basic(optional = false)
     @Column(name = "name_doc")
-    private String nameDoc;
+    private String docName;
 
     @Basic(optional = false)
     @Column(name = "code")
-    private Integer code;
+    private Integer docCode;
 
     public Integer getId() {
         return id;
     }
 
-    public String getNameDoc() {
-        return nameDoc;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "docType",
+            cascade = {CascadeType.PERSIST, CascadeType.MERGE}, orphanRemoval = true)
+    private List<User> users;
+
+    public String getDocName() {
+        return docName;
     }
 
-    public void setNameDoc(String nameDoc) {
-        this.nameDoc = nameDoc;
+    public void setDocName(String docName) {
+        this.docName = docName;
     }
 
-    public Integer getCode() {
-        return code;
+    public Integer getDocCode() {
+        return docCode;
     }
 
-    public void setCode(Integer code) {
-        this.code = code;
+    public void setDocCode(Integer docCode) {
+        this.docCode = docCode;
     }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+
+    @Override
+    public String toString() {
+        return "DocType{" +
+                "docName='" + docName + '\'' +
+                ", docCode=" + docCode +
+                '}';
+    }
+
 }

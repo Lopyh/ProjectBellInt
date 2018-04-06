@@ -1,7 +1,6 @@
 package eas.service;
 
-
-import eas.model.Organization;
+import eas.contorller.impl.ResultView;
 import eas.orika.OrganizationOrika;
 
 import java.util.List;

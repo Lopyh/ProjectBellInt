@@ -1,11 +1,12 @@
 package eas.service;
 
-import eas.model.Client;
+
 import eas.orika.ClientOrika;
 
 public interface ClientService {
-
-    public void save(ClientOrika client);
+    public void save(ClientOrika clientOrika);
+    public String hashCode(String code);
+    public void login(ClientOrika clientOrika);
 
 
 

@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface CountryDAO {
     List<Country> list();
+    Country getByCode(Integer code);
 }

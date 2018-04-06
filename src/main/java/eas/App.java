@@ -1,28 +1,24 @@
 package eas;
 
-
-
-import eas.service.DocsService;
+import eas.orika.ClientOrika;
+import eas.service.ClientService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.util.List;
+import java.net.URISyntaxException;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws URISyntaxException {
         ApplicationContext application = new ClassPathXmlApplicationContext("appConfig.xml");//
-//        ClientService clientService = application.getBean(ClientService.class);
-//        ClientOrika orika = new ClientOrika("adf","adf","ff");
-//
-//        clientService.save(orika);
-//        System.out.println(orika.getLogin());
 
-//        OfficeDAO officeDAO = application.getBean(OfficeDAO.class);
-//        List<Office> offices = officeDAO.list(2,"","",true);
-//        for (Office o: offices
-//             ) {
-//            System.out.println(o);
-//        }
+        ClientService clientService = application.getBean(ClientService.class);
+        ClientOrika clientOrika = new ClientOrika();
+        clientOrika.setLogin("Jora322");
+        clientOrika.setPassword("qwer123");
+        clientOrika.setName("Jora");
+        clientService.save(clientOrika);
+
+
 
 
     }

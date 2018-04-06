@@ -1,34 +1,36 @@
 package eas.orika;
 
+import eas.model.Client;
 import eas.model.Office;
 import eas.model.Organization;
 import eas.model.User;
 import ma.glasnost.orika.BoundMapperFacade;
-import ma.glasnost.orika.MapperFacade;
 import ma.glasnost.orika.MapperFactory;
-import ma.glasnost.orika.impl.ConfigurableMapper;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
-import ma.glasnost.orika.impl.MapperFacadeImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+
 
 @Repository
 public class OrikaMapperFactory {
 
     BoundMapperFacade<Organization, OrganizationOrika> orgMapper;
     BoundMapperFacade<Office, OfficeOrika> officeMapper;
-    BoundMapperFacade<User, UserOrika> userMapper;
+    BoundMapperFacade<User,UserOrika> userMapper;
+    BoundMapperFacade<Client,ClientOrika> clientMapper;
 
 
     @Autowired
     public OrikaMapperFactory(){
         MapperFactory mapperFactory = new DefaultMapperFactory.Builder().build();
+        userMapper = mapperFactory.getMapperFacade(User.class,UserOrika.class);
         orgMapper = mapperFactory.getMapperFacade(Organization.class, OrganizationOrika.class);
         officeMapper = mapperFactory.getMapperFacade(Office.class, OfficeOrika.class);
-        userMapper = mapperFactory.getMapperFacade(User.class, UserOrika.class);
+        clientMapper = mapperFactory.getMapperFacade(Client.class,ClientOrika.class);
     }
+
+
 
     public BoundMapperFacade<Office, OfficeOrika> getOfficeMapper() {
         return officeMapper;
@@ -53,4 +55,28 @@ public class OrikaMapperFactory {
     public void setOrgMapper(BoundMapperFacade<Organization, OrganizationOrika> orgMapper) {
         this.orgMapper = orgMapper;
     }
+
+    public BoundMapperFacade<Client, ClientOrika> getClientMapper() {
+        return clientMapper;
+    }
+
+    public void setClientMapper(BoundMapperFacade<Client, ClientOrika> clientMapper) {
+        this.clientMapper = clientMapper;
+    }
 }
+
+
+//mapperFactory.classMap(User.class,UserOrika.class)
+//        .field("docType.docName", "docName")
+//        .field("docType.docCode","docCode")
+//        .field("country.citizenshipName", "citizenshipName")
+//        .field("country.citizenshipCode","citizenshipCode")
+//        .field("firstName","firstName")
+//        .field("lastName","lastName")
+//        .field("middleName","middleName")
+//        .field("position","position")
+//        .field("phone","phone")
+//        .field("docNumber","docNumber")
+//        .field("docDate","docDate")
+//        .field("isIdentified","isIdentified")
+//        .byDefault().register();

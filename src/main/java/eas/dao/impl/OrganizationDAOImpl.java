@@ -54,11 +54,10 @@ public class OrganizationDAOImpl implements OrganizationDAO {
         CriteriaQuery<Organization> criteria = builder.createQuery(Organization.class);
         Root<Organization> root = criteria.from(Organization.class);
 
-
         CriteriaQuery<Organization> where = criteria.where(builder.and(
                 builder.like(root.<String>get("name"), "%" + name + "%"),
                 builder.like(root.<String>get("inn"), "%" + inn + "%"),
-                builder.equal(root.<Boolean>get("isActive"), isActive))
+                builder.equal(root.<Boolean>get("isActive"), true))
         );
         return em.createQuery(criteria).getResultList();
 

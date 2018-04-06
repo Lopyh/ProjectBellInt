@@ -1,7 +1,9 @@
 package eas.service.impl;
 
 import eas.dao.OfficeDAO;
+import eas.dao.OrganizationDAO;
 import eas.model.Office;
+import eas.model.Organization;
 import eas.orika.OfficeOrika;
 import eas.orika.OrikaMapperFactory;
 import eas.service.OfficeService;
@@ -20,23 +22,29 @@ import java.util.List;
 public class OfficeServiceImpl implements OfficeService{
 
    OrikaMapperFactory mapperFactory;
+   OrganizationDAO organizationDAO;
    OfficeDAO dao;
 
    @Autowired
-   OfficeServiceImpl (OfficeDAO dao, OrikaMapperFactory mapperFactory){
+   OfficeServiceImpl (OfficeDAO dao, OrikaMapperFactory mapperFactory, OrganizationDAO organizationDAO){
        this.mapperFactory = mapperFactory;
        this.dao = dao;
+       this.organizationDAO = organizationDAO;
+
    }
 
 
     @Override
     @Transactional
     public List<OfficeOrika> list(OfficeOrika officeOrika) {
-        List<Office> offices = dao.list(officeOrika.getId(),officeOrika.getName(),officeOrika.getPhone(),officeOrika.isActive());
+        List<Office> offices = dao.list(officeOrika.getOrgId(), officeOrika.getName(),
+                officeOrika.getPhone(),Boolean.valueOf(officeOrika.getIsActive()));
         List<OfficeOrika> result = new ArrayList<OfficeOrika>();
         for (Office o: offices
              ) {
-            result.add(mapperFactory.getOfficeMapper().map(o));
+            OfficeOrika officeOrika1 = mapperFactory.getOfficeMapper().map(o);
+            officeOrika1.setOrgId(mapperFactory.getOfficeMapper().map(o).getOrganization().getId());
+            result.add(officeOrika1);
         }
         return result;
     }
@@ -44,26 +52,39 @@ public class OfficeServiceImpl implements OfficeService{
     @Override
     @Transactional
     public OfficeOrika getById(Integer id) {
-        OfficeOrika officeOrika = mapperFactory.getOfficeMapper().map(dao.getById(id));
+       Office office = dao.getById(id);
+        OfficeOrika officeOrika = mapperFactory.getOfficeMapper().map(office);
+        officeOrika.setIsActive(String.valueOf(office.isActive()));
+        System.out.println(officeOrika);
         return officeOrika;
     }
 
     @Override
     @Transactional
     public void update(OfficeOrika officeOrika) {
-        dao.update(mapperFactory.getOfficeMapper().mapReverse(officeOrika));
+       Office office = dao.getById(officeOrika.getId());
+       office.setName(officeOrika.getName());
+       office.setAddress(officeOrika.getAddress());
+       office.setPhone(officeOrika.getPhone());
+       office.setActive(Boolean.valueOf(officeOrika.getIsActive()));
+       System.out.println(office);
+       dao.update(office);
     }
 
     @Override
     @Transactional
     public void delete(OfficeOrika officeOrika) {
-        dao.remove(mapperFactory.getOfficeMapper().mapReverse(officeOrika));
+        dao.remove(dao.getById(officeOrika.getId()));
     }
 
     @Override
     @Transactional
     public void save(OfficeOrika officeOrika) {
-        dao.save(mapperFactory.getOfficeMapper().mapReverse(officeOrika));
+       Office office = mapperFactory.getOfficeMapper().mapReverse(officeOrika);
+       Organization organization = organizationDAO.getById(officeOrika.getOrgId());
+       office.setOrganization(organization);
+       System.out.println(office);
+       dao.save(office);
     }
 
 }

@@ -27,17 +27,37 @@ public class ClientControllerImpl implements ClientController {
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/register", method = RequestMethod.POST, consumes = "application/json")
-    public void register(@RequestBody ClientOrika orika){
+    public ResultView register(@RequestBody ClientOrika orika){
+        try{
         clientService.save(orika);
+            return new ResultView();
+        }
+        catch (Exception e){
+            return new ResultView(e.toString());
+        }
     }
-
-
 
     @RequestMapping(value = "api/activation")
     public @ResponseBody String activation(@RequestParam("code") String code){
-        return (code);
+        return clientService.hashCode(code);
     }
 
+    @Override
+    @ApiOperation(value = "login", nickname = "login", httpMethod = "POST")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = String.class),
+            @ApiResponse(code = 404, message = "Not Found"),
+            @ApiResponse(code = 500, message = "Failure")})
+    @RequestMapping(value = "api/login", method = RequestMethod.POST, consumes = "application/json")
+    public ResultView login(@RequestBody ClientOrika orika) {
+       try{
+        clientService.login(orika);
+        return new ResultView();
+    }
+        catch (Exception e){
+        return new ResultView(e.toString());
+    }
+    }
 
 
 }

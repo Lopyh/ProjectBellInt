@@ -3,6 +3,7 @@ package eas.model;
 import javax.persistence.*;
 import java.sql.Date;
 
+
 @Entity
 @Table(name = "User")
 public class User {
@@ -10,21 +11,20 @@ public class User {
     public User(){
     }
 
-    public User(String firstName, String secondName,
-                 String middleName, String position, String phone, String docName,
-                 Integer docNumber, Date docDate, String citizenshipName, Integer citizenshipCode, boolean isIdentified){
-
+    public User(String firstName, String lastName, String middleName,
+                String position, String phone, Date docDate, String docNumber,
+                Boolean isIdentified, Office office, DocType docType, Country country) {
         this.firstName = firstName;
-        this.lastName = secondName;
+        this.lastName = lastName;
         this.middleName = middleName;
         this.position = position;
         this.phone = phone;
-        this.docName = docName;
-        this.docNumber = docNumber;
         this.docDate = docDate;
-        this.citizenshipName = citizenshipName;
-        this.citizenshipCode = citizenshipCode;
+        this.docNumber = docNumber;
         this.isIdentified = isIdentified;
+        this.office = office;
+        this.docType = docType;
+        this.country = country;
     }
 
     @Id
@@ -54,47 +54,138 @@ public class User {
 
     @Basic(optional = false)
     @Column(name = "doc_number")
-    private int docNumber;
-
-
-//    @ManyToOne
-//    @JoinColumns({
-//            @JoinColumn(name="MGR_COUNTRY", referencedColumnName="COUNTRY"),
-//            @JoinColumn(name="MGR_ID", referencedColumnName="EMP_ID")
-//    })
-
-
-    @Basic(optional = false)
-    @Column(name = "doc_name")
-    private String docName;
+    private String docNumber;
 
     @Basic(optional = false)
     @Column(name = "doc_date")
     private Date docDate;
 
     @Basic(optional = false)
-    @Column(name = "citizenship_name")
-    private String citizenshipName;
-
-    @Basic(optional = false)
-    @Column(name = "citizenship_code")
-    private int citizenshipCode;
-
-    @Basic(optional = false)
     @Column(name = "is_identified")
     private Boolean isIdentified;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "office_id")
     private Office office;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "doc_type_id")
+    private DocType docType;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "country_id")
+    private Country country;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public Date getDocDate() {
+        return docDate;
+    }
+
+    public void setDocDate(Date docDate) {
+        this.docDate = docDate;
+    }
+
+    public String getDocNumber() {
+        return docNumber;
+    }
+
+    public void setDocNumber(String docNumber) {
+        this.docNumber = docNumber;
+    }
+
+    public Boolean getIdentified() {
+        return isIdentified;
+    }
+
+    public void setIdentified(Boolean identified) {
+        isIdentified = identified;
+    }
+
+    public Office getOffice() {
+        return office;
+    }
+
+    public void setOffice(Office office) {
+        this.office = office;
+    }
+
+    public DocType getDocType() {
+        return docType;
+    }
+
+    public void setDocType(DocType docType) {
+        this.docType = docType;
+    }
+
+    public Country getCountry() {
+        return country;
+    }
+
+    public void setCountry(Country country) {
+        this.country = country;
+    }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\''+'}';
-
+                ", lastName='" + lastName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                ", position='" + position + '\'' +
+                ", phone='" + phone + '\'' +
+                ", docNumber='" + docNumber + '\'' +
+                ", docDate=" + docDate +
+                ", isIdentified=" + isIdentified +
+                ", docType=" + docType +
+                ", country=" + country +
+                '}';
     }
 }

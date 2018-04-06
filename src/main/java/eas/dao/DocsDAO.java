@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface DocsDAO {
     List<DocType> list();
+    DocType getByCode(Integer code);
+    DocType getByName(String name);
 }

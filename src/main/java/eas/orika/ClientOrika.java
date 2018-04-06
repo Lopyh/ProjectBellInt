@@ -5,6 +5,7 @@ public class ClientOrika {
     private String login;
     private String password;
     private String name;
+    private String activationCode;
 
     public ClientOrika(){}
 
@@ -36,5 +37,13 @@ public class ClientOrika {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getActivationCode() {
+        return activationCode;
+    }
+
+    public void setActivationCode(String activationCode) {
+        this.activationCode = activationCode;
     }
 }

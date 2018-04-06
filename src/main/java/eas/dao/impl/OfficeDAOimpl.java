@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
-import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -21,6 +20,10 @@ public class OfficeDAOimpl implements OfficeDAO {
 
     @Override
     public List<Office> list(Integer orgId, String name, String phone, boolean isActive) {
+        System.out.println(orgId);
+        System.out.println(name);
+        System.out.println(phone);
+        System.out.println(isActive);
         CriteriaBuilder builder = em.getCriteriaBuilder();
         CriteriaQuery<Office> criteria = builder.createQuery(Office.class);
         Root<Office> root = criteria.from(Office.class);

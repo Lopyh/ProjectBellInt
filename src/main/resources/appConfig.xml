@@ -36,11 +36,19 @@
             </props>
         </property>
     </bean>
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+            </list>
+        </property>
+    </bean>
 
     <jdbc:embedded-database id="h2Source" type="H2">
         <jdbc:script location="classpath:schema.sql"/>
         <jdbc:script location="classpath:data.sql"/>
     </jdbc:embedded-database>
+
 
 
 </beans>

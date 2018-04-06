@@ -1,7 +1,6 @@
 package eas.contorller.impl;
 
 import eas.contorller.OrganizationController;
-import eas.model.Organization;
 import eas.orika.OrganizationOrika;
 import eas.service.OrgService;
 import io.swagger.annotations.ApiOperation;
@@ -16,10 +15,12 @@ import java.util.List;
 @RequestMapping(value = "/", produces = "application/json")
 public class OrganizationControllerImpl implements OrganizationController{
     private OrgService orgService;
+    ResultView resultView;
 
     @Autowired
     OrganizationControllerImpl(OrgService orgService){
         this.orgService = orgService;
+        this.resultView = resultView;
     }
 
     @Override
@@ -32,8 +33,8 @@ public class OrganizationControllerImpl implements OrganizationController{
     @Override
     @ApiOperation(value = "getById", nickname = "getById", httpMethod = "GET")
     @RequestMapping(value = "api/organization/{id}", method = RequestMethod.GET)
-    public String getById(@PathVariable("id") Integer id) {
-        return orgService.getById(id).toString();
+    public OrganizationOrika getById(@PathVariable("id") Integer id) {
+        return orgService.getById(id);
     }
 
     @Override
@@ -43,8 +44,14 @@ public class OrganizationControllerImpl implements OrganizationController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/organization/update", method = RequestMethod.POST, consumes = "application/json")
-    public void update(@RequestBody OrganizationOrika organizationOrika) {
-        orgService.update(organizationOrika);
+    public ResultView update(@RequestBody OrganizationOrika organizationOrika) {
+        try{
+            orgService.update(organizationOrika);
+            return new ResultView();
+        }
+        catch (Exception e){
+            return new ResultView(e.toString());
+        }
     }
 
     @Override
@@ -54,8 +61,14 @@ public class OrganizationControllerImpl implements OrganizationController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/organization/save", method = RequestMethod.POST, consumes = "application/json")
-    public void save(@RequestBody OrganizationOrika organizationOrika) {
+    public ResultView save(@RequestBody OrganizationOrika organizationOrika) {
+        try{
         orgService.saveOrg(organizationOrika);
+        return new ResultView();
+        }
+        catch (Exception e){
+        return new ResultView(e.toString());
+        }
     }
 
     @ApiOperation(value = "delete", nickname = "delete", httpMethod = "POST")
@@ -64,8 +77,14 @@ public class OrganizationControllerImpl implements OrganizationController{
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
     @RequestMapping(value = "api/organization/delete", method = RequestMethod.POST, consumes = "application/json")
-    public void delete(@RequestBody OrganizationOrika organizationOrika) {
+    public ResultView delete(@RequestBody OrganizationOrika organizationOrika) {
+     try {
         orgService.delete(organizationOrika);
+        return new ResultView();
+        }
+        catch (Exception e){
+        return new ResultView(e.toString());
+     }
     }
 
 

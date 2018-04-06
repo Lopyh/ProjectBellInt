@@ -1,5 +1,6 @@
 package eas.contorller;
 
+import eas.contorller.impl.ResultView;
 import eas.orika.OfficeOrika;
 
 import java.util.List;
@@ -11,10 +12,10 @@ public interface OfficeController {
      “phone”:””,
      “isActive”
      */
-    List<OfficeOrika> list(OfficeOrika officeOrika);
+    List<OfficeOrika> list(Integer orgId, OfficeOrika officeOrika);
 
     /**Выбрать офис по его id*/
-    String getById(Integer id);
+    OfficeOrika getById(Integer id);
 
     /**Апдейт офиса “id”:””,
      “name”:””,
@@ -22,10 +23,10 @@ public interface OfficeController {
      “phone”,””,
      “isActive”:”true”
      */
-    void update(OfficeOrika officeOrika);
+    ResultView update(OfficeOrika officeOrika);
 
     /**Удаление офиса по id*/
-    void delete(OfficeOrika officeOrika);
+    ResultView delete(OfficeOrika officeOrika);
 
     /**Cохранение нового офиса
      * “name”:””,
@@ -33,7 +34,7 @@ public interface OfficeController {
      “phone”,””,
      “isActive”:”true”
      */
-    void save(OfficeOrika officeOrika);
+    ResultView save(OfficeOrika officeOrika);
 
 
 }

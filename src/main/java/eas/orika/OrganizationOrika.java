@@ -12,7 +12,7 @@ public class OrganizationOrika {
 
     }
 
-    public OrganizationOrika(String name, String fullName, String inn, String kpp, String address, String phone, boolean isActive) {
+    public OrganizationOrika(String name, String fullName, String inn, String kpp, String address, String phone, String isActive) {
         this.name = name;
         this.fullName = fullName;
         this.inn = inn;
@@ -29,7 +29,7 @@ public class OrganizationOrika {
     private String kpp;
     private String address;
     private String phone;
-    private boolean isActive;
+    private String isActive;
     private List<Office> offices;
 
     public Integer getId() {
@@ -88,12 +88,12 @@ public class OrganizationOrika {
         this.phone = phone;
     }
 
-    public boolean isActive() {
+    public String getIsActive() {
         return isActive;
     }
 
-    public void setActive(boolean active) {
-        isActive = active;
+    public void setIsActive(String isActive) {
+        this.isActive = isActive;
     }
 
     public List<Office> getOffices() {
@@ -104,14 +104,6 @@ public class OrganizationOrika {
         this.offices = offices;
     }
 
-    public String toList() {
-        return "OrganizationOrika{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", isActive=" + isActive +
-                '}';
-    }
-
     @Override
     public String toString() {
         return "OrganizationOrika{" +
@@ -119,10 +111,10 @@ public class OrganizationOrika {
                 ", name='" + name + '\'' +
                 ", fullName='" + fullName + '\'' +
                 ", inn='" + inn + '\'' +
-                ", kpp=" + kpp +
+                ", kpp='" + kpp + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
-                ", isActive=" + isActive +
+                ", isActive='" + isActive + '\'' +
                 '}';
     }
 }

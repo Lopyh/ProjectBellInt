@@ -1,24 +1,39 @@
 package eas.orika;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Component
 public class OfficeOrika {
     public OfficeOrika(){
     }
-    public OfficeOrika(String name, String address, String phone, boolean isActive){
+
+    public OfficeOrika(Integer orgId, Integer id, String name, String address, String phone, String isActive) {
+        this.orgId = orgId;
+        this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
         this.isActive = isActive;
     }
 
+    private Integer orgId;
     private Integer id;
     private String name;
     private String address;
     private String phone;
-    private boolean isActive;
+    private String isActive;
     private OrganizationOrika organization;
     private List<UserOrika> user;
+
+    public Integer getOrgId() {
+        return orgId;
+    }
+
+    public void setOrgId(Integer orgId) {
+        this.orgId = orgId;
+    }
 
     public Integer getId() {
         return id;
@@ -52,12 +67,12 @@ public class OfficeOrika {
         this.phone = phone;
     }
 
-    public boolean isActive() {
+    public String getIsActive() {
         return isActive;
     }
 
-    public void setActive(boolean active) {
-        isActive = active;
+    public void setIsActive(String isActive) {
+        this.isActive = isActive;
     }
 
     public OrganizationOrika getOrganization() {
@@ -74,5 +89,17 @@ public class OfficeOrika {
 
     public void setUser(List<UserOrika> user) {
         this.user = user;
+    }
+
+    @Override
+    public String toString() {
+        return "OfficeOrika{" +
+                "orgId=" + orgId +
+                ", id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone='" + phone + '\'' +
+                ", isActive=" + isActive +
+                '}';
     }
 }
