@@ -1,5 +1,6 @@
 package service;
 
+import eas.hash.HashCreator;
 import eas.orika.ClientOrika;
 import eas.service.ClientService;
 import org.junit.Assert;
@@ -21,5 +22,10 @@ public class ClientTest {
         ClientOrika clientOrika = new ClientOrika("pol","lol", "Paul");
         clientService.save(clientOrika);
         Assert.assertEquals(1, 1);
+    }
+
+    @Test
+    public void hashCod() {
+        Assert.assertEquals(clientService.hashCode("qwer123"), HashCreator.getSHA256("qwer123"));
     }
 }

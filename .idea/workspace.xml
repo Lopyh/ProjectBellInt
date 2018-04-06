@@ -7,71 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e9a59b-4c93-4776-bfa7-32f8df3cf130" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ResultView.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/controller/OfficeControllerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/controller/OrganizationControllerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/controller/UserControllerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/ClientTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/OfficeTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/OrganizationTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/service/UserTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/projectBellInt_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/projectBellInt_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/projectBellInt.iml" afterPath="$PROJECT_DIR$/projectBellInt.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/App.java" afterPath="$PROJECT_DIR$/src/main/java/eas/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/OfficeController.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/OfficeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/OrganizationController.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/OrganizationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ClientControllerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/OfficeControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/OfficeControllerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/OrganizationControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/OrganizationControllerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/UserControllerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/contorller/impl/UserControllerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/CountryDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/CountryDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/DocsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/DocsDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/ClientDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/CountryDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/CountryDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/DocsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/DocsDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OfficeDAOimpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/OrganizationDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java" afterPath="$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Client.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/Country.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Country.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/DocType.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/DocType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/Office.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/Office.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/eas/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/orika/OfficeOrika.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/OfficeOrika.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/orika/OrganizationOrika.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/OrganizationOrika.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/orika/OrikaMapperFactory.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/OrikaMapperFactory.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java" afterPath="$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/ClientService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/ClientService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/OfficeService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/OrgService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/OrgService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/DocsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/DocsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/HelloWeb-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appConfig.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/service/ClientTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/OfficeTest.java" afterPath="$PROJECT_DIR$/src/test/java/service/OfficeTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/service/UserTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,43 +39,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrgServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="-989">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationOrika.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/OrganizationOrika.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="107" column="18" lean-forward="false" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrikaMapperFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/OrikaMapperFactory.java">
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfficeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/OfficeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/OrganizationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrgService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,58 +123,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/DocsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfficeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientOrika.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/ClientOrika.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfficeOrika.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/OfficeOrika.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
               <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -253,13 +194,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/OrganizationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/DocsControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/contorller/DocsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/dao/DocsDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/CountryControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/service/impl/OfficeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/model/Office.java" />
@@ -297,12 +236,14 @@
         <option value="$PROJECT_DIR$/src/test/java/controller/OrganizationControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/src/test/java/service/OfficeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/UserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/OrganizationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/contorller/impl/ResultView.java" />
         <option value="$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/OfficeTest.java" />
       </list>
     </option>
   </component>
@@ -409,7 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,12 +376,95 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+              <item name="orika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eas" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -489,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JUnit.OfficeTest.updateOffice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -511,44 +535,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="OfficeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OfficeTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="projectBellInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.OfficeControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="OfficeControllerTest.deleteOffice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectBellInt" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.OfficeControllerTest" />
-      <option name="METHOD_NAME" value="deleteOffice" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.OfficeTest" />
+      <option name="METHOD_NAME" value="getById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -561,20 +560,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrganizationControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OfficeTest.updateOffice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="projectBellInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.OrganizationControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.OfficeTest" />
+      <option name="METHOD_NAME" value="updateOffice" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -586,20 +585,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrganizationTest.updateOrg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="projectBellInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.UserControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.OrganizationTest" />
+      <option name="METHOD_NAME" value="updateOrg" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -611,18 +610,43 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserControllerTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.updateOrg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="projectBellInt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.UserControllerTest" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserTest" />
+      <option name="METHOD_NAME" value="updateOrg" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="projectBellInt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserTest" />
       <option name="METHOD_NAME" value="updateUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -783,19 +807,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OfficeControllerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OfficeControllerTest.deleteOffice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OrganizationControllerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserControllerTest.updateUser" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserControllerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.updateOrg" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationTest.updateOrg" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OfficeTest.getById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest.updateUser" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.OfficeTest.updateOffice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserControllerTest.updateUser" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OfficeControllerTest.deleteOffice" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OfficeControllerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OfficeTest.updateOffice" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.updateUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OfficeTest.getById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.updateOrg" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrganizationTest.updateOrg" />
       </list>
     </recent_temporary>
   </component>
@@ -859,44 +883,45 @@
       <workItem from="1522792029921" duration="30354000" />
       <workItem from="1522843063191" duration="28739000" />
       <workItem from="1522955531786" duration="11442000" />
-      <workItem from="1522975621846" duration="10452000" />
+      <workItem from="1522975621846" duration="10962000" />
+      <workItem from="1523002561929" duration="4183000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OfficeControllerTest_deleteOffice - 2018.04.06 at 06h 28m 19s.xml">
-      <configuration name="OfficeControllerTest.deleteOffice" configurationId="JUnit" />
+    <history-entry file="OfficeTest_getById - 2018.04.06 at 13h 06m 30s.xml">
+      <configuration name="OfficeTest.getById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationControllerTest - 2018.04.06 at 06h 28m 37s.xml">
-      <configuration name="OrganizationControllerTest" configurationId="JUnit" />
+    <history-entry file="OfficeTest_updateOffice - 2018.04.06 at 13h 20m 54s.xml">
+      <configuration name="OfficeTest.updateOffice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationControllerTest - 2018.04.06 at 06h 30m 40s.xml">
-      <configuration name="OrganizationControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateOrg - 2018.04.06 at 12h 58m 57s.xml">
+      <configuration name="UserTest.updateOrg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationControllerTest - 2018.04.06 at 06h 33m 38s.xml">
-      <configuration name="OrganizationControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateOrg - 2018.04.06 at 13h 02m 07s.xml">
+      <configuration name="UserTest.updateOrg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrganizationControllerTest - 2018.04.06 at 06h 38m 39s.xml">
-      <configuration name="OrganizationControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 08m 14s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2018.04.06 at 06h 34m 20s.xml">
-      <configuration name="UserControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 13m 49s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2018.04.06 at 06h 36m 36s.xml">
-      <configuration name="UserControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 14m 22s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2018.04.06 at 06h 37m 00s.xml">
-      <configuration name="UserControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 15m 54s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest - 2018.04.06 at 06h 38m 55s.xml">
-      <configuration name="UserControllerTest" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 16m 49s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserControllerTest_updateUser - 2018.04.06 at 06h 34m 08s.xml">
-      <configuration name="UserControllerTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserTest_updateUser - 2018.04.06 at 13h 18m 02s.xml">
+      <configuration name="UserTest.updateUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328942000" />
+    <option name="totallyTimeSpent" value="333635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -932,7 +957,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25945538" sideWeight="0.11764706" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.88235295" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.88235295" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.5104712" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.5104712" order="2" side_tool="true" content_ui="tabs" />
@@ -1005,62 +1030,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/OrganizationControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#2154#2162#0" expanded="false" />
-            <element signature="e#2727#2735#0" expanded="false" />
-            <element signature="e#3962#3970#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/OfficeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/OrganizationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1075,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,27 +1090,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/View/OrgForGetById.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/View/OrgForGetById.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/CountryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,23 +1102,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/HelloController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/OfficeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,14 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/ClientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1282,14 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/hash/HashCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1302,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,7 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,22 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/DocsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1412,18 +1311,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/OrgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/contorller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/orika/UserOrika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/OrgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/OrganizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eas/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="-989">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/OfficeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding />
         </state>
       </provider>

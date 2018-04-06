@@ -1,7 +1,10 @@
 package eas.orika;
 
+import org.springframework.stereotype.Component;
+
 import java.sql.Date;
 
+@Component
 public class UserOrika {
     public UserOrika() {
     }
